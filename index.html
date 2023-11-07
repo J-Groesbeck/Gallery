@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Tutorial Done :)-->
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,35 +32,35 @@
                             Monthly Sites
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">November</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowNov(); document.getElementById('Nov').scrollIntoView();">November</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">December</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowDec(); document.getElementById('Dec').scrollIntoView();">December</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">January</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowJan(); document.getElementById('Jan').scrollIntoView();">January</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">February</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowFeb(); document.getElementById('Feb').scrollIntoView();">February</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">March</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowMar(); document.getElementById('Mar').scrollIntoView();">March</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">April</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowApr(); document.getElementById('Apr').scrollIntoView();">April</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">May</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowMay(); document.getElementById('May').scrollIntoView();">May</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item" href="#">June</a></li>
+                            <li><a class="dropdown-item" onclick="monthglowJun(); document.getElementById('Jun').scrollIntoView();">June</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -116,10 +116,10 @@
         <div class="row m-3">
             <!--November Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Nov">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">November</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -131,10 +131,10 @@
 
             <!--December Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Dec">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">December</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -146,10 +146,10 @@
 
             <!--January Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Jan">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">January</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -161,10 +161,10 @@
 
             <!--February Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Feb">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">February</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -176,10 +176,10 @@
 
             <!--March Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Mar">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">March</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -191,10 +191,10 @@
 
             <!--April Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Apr">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">April</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -206,10 +206,10 @@
 
             <!--May Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="May">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">May</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -221,10 +221,10 @@
 
             <!--June Start-->
             <div class="col-12 col-lg-3 pt-3 mb-2">
-                <div class="card">
+                <div class="card" id="Jun">
                     <img src="https://picsum.photos/600/400" class="rounded-1" alt="...">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">June</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
