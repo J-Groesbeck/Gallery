@@ -7,7 +7,19 @@ function monthglowNov() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    November.style.display = "none";
+
+    if (December.style.boxShadow === "none" && January.style.boxShadow === "none" && February.style.boxShadow === "none" && March.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        November.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "2px 2px 2px 2px black";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowDec() {
@@ -19,7 +31,19 @@ function monthglowDec() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    December.style.display = "none";
+
+    if (November.style.boxShadow === "none" && January.style.boxShadow === "none" && February.style.boxShadow === "none" && March.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        December.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "2px 2px 2px 2px black";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowJan() {
@@ -31,7 +55,19 @@ function monthglowJan() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    January.style.display = "none";
+
+    if (December.style.boxShadow === "none" && November.style.boxShadow === "none" && February.style.boxShadow === "none" && March.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        January.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "2px 2px 2px 2px black";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowFeb() {
@@ -43,7 +79,19 @@ function monthglowFeb() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    February.style.display = "none";
+
+    if (December.style.boxShadow === "none" && January.style.boxShadow === "none" && November.style.boxShadow === "none" && March.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        February.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "2px 2px 2px 2px black";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowMar() {
@@ -55,7 +103,19 @@ function monthglowMar() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    March.style.display = "none";
+
+    if (December.style.boxShadow === "none" && January.style.boxShadow === "none" && February.style.boxShadow === "none" && November.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        March.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "2px 2px 2px 2px black";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowApr() {
@@ -67,7 +127,19 @@ function monthglowApr() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    April.style.display = "none";
+
+    if (December.style.boxShadow === "none" && January.style.boxShadow === "none" && February.style.boxShadow === "none" && March.style.boxShadow === "none" && November.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        April.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "2px 2px 2px 2px black";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowMay() {
@@ -79,7 +151,19 @@ function monthglowMay() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    May.style.display = "none";
+
+    if (December.style.boxShadow === "none" && January.style.boxShadow === "none" && February.style.boxShadow === "none" && March.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && June.style.boxShadow === "none") {
+        November.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "2px 2px 2px 2px black";
+        June.style.boxShadow = "none";
+    }
 }
 
 function monthglowJun() {
@@ -91,5 +175,17 @@ function monthglowJun() {
     var April = document.getElementById("Apr");
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
-    June.style.display = "none";
+
+    if (December.style.boxShadow === "none" && January.style.boxShadow === "none" && February.style.boxShadow === "none" && March.style.boxShadow === "none" && April.style.boxShadow === "none" && May.style.boxShadow === "none" && November.style.boxShadow === "none") {
+        June.style.boxShadow = "2px 2px 2px 2px black";
+    } else {
+        November.style.boxShadow = "none";
+        December.style.boxShadow = "none";
+        January.style.boxShadow = "none";
+        February.style.boxShadow = "none";
+        March.style.boxShadow = "none";
+        April.style.boxShadow = "none";
+        May.style.boxShadow = "none";
+        June.style.boxShadow = "2px 2px 2px 2px black";
+    }
 }
