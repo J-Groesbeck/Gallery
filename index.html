@@ -22,65 +22,61 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 400px">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Monthly Sites
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowNov(); document.getElementById('Header').scrollIntoView();">November</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowDec(); document.getElementById('Nov').scrollIntoView();">December</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowJan(); document.getElementById('Dec').scrollIntoView();">January</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowFeb(); document.getElementById('Jan').scrollIntoView();">February</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowMar(); document.getElementById('Feb').scrollIntoView();">March</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowApr(); document.getElementById('Mar').scrollIntoView();">April</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowMay(); document.getElementById('Apr').scrollIntoView();">May</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
-                            <li><a class="dropdown-item"
+                            <li><a class="dropdown-item pointer"
                                     onclick="monthglowJun(); document.getElementById('Jun').scrollIntoView();">June</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Contact</a>
+                        <a class="nav-link pointer" aria-disabled="true" onclick="document.getElementById('Footer').scrollIntoView()">Contact</a>
                     </li>
                 </ul>
                 </form>
@@ -88,10 +84,12 @@
         </div>
     </nav>
     <!-- Nav End-->
+    <!--Scroll to Top on Mobile Start-->
     <button class="d-lg-none" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!--Scroll to Top on Mobile End-->
     <div class="container">
         <!--Header Start-->
-        <div class="row m-3" id="Header">
+        <div class="row m-3" id="Header Home">
             <!--Hero sm Start-->
             <div class="col-12 d-lg-none text-center rounded-3 bg-hero-image">
                 <div class="d-flex justify-content-center align-items-center h-100">
@@ -254,7 +252,7 @@
         <!--Gallery End-->
 
         <!--Footer Start-->
-        <footer class="text-center">
+        <footer class="text-center" id="Footer">
             <div class="container p-4 pb-0">
                 <section class="mb-4">
                     <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/J-Groesbeck" target="_blank"
