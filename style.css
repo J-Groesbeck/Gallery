@@ -45,3 +45,7 @@ body {
 nav {
     color: white;
 }
+
+.btn-primary {
+    background-color: rgb(28, 28, 28);
+}
