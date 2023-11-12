@@ -7,7 +7,7 @@ body {
 }
 
 .bg-hero-image {
-    background-image: url('https://picsum.photos/1300/500');
+    background-image: url(img/stars.jpeg);
     background-position: center center;
 }
 
