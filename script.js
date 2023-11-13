@@ -27,7 +27,7 @@ function monthglowNov() {
     var May = document.getElementById("May");
     var June = document.getElementById("Jun");
 
-    November.style.boxShadow = "2px 2px 2px 2px black";
+    November.style.boxShadow = "4px 4px 4px 4px black";
     December.style.boxShadow = "none";
     January.style.boxShadow = "none";
     February.style.boxShadow = "none";
@@ -48,7 +48,7 @@ function monthglowDec() {
     var June = document.getElementById("Jun");
 
     November.style.boxShadow = "none";
-    December.style.boxShadow = "2px 2px 2px 2px black";
+    December.style.boxShadow = "4px 4px 4px 4px black";
     January.style.boxShadow = "none";
     February.style.boxShadow = "none";
     March.style.boxShadow = "none";
@@ -69,7 +69,7 @@ function monthglowJan() {
 
     November.style.boxShadow = "none";
     December.style.boxShadow = "none";
-    January.style.boxShadow = "2px 2px 2px 2px black";
+    January.style.boxShadow = "4px 4px 4px 4px black";
     February.style.boxShadow = "none";
     March.style.boxShadow = "none";
     April.style.boxShadow = "none";
@@ -90,7 +90,7 @@ function monthglowFeb() {
     November.style.boxShadow = "none";
     December.style.boxShadow = "none";
     January.style.boxShadow = "none";
-    February.style.boxShadow = "2px 2px 2px 2px black";
+    February.style.boxShadow = "4px 4px 4px 4px black";
     March.style.boxShadow = "none";
     April.style.boxShadow = "none";
     May.style.boxShadow = "none";
@@ -111,7 +111,7 @@ function monthglowMar() {
     December.style.boxShadow = "none";
     January.style.boxShadow = "none";
     February.style.boxShadow = "none";
-    March.style.boxShadow = "2px 2px 2px 2px black";
+    March.style.boxShadow = "4px 4px 4px 4px black";
     April.style.boxShadow = "none";
     May.style.boxShadow = "none";
     June.style.boxShadow = "none";
@@ -132,7 +132,7 @@ function monthglowApr() {
     January.style.boxShadow = "none";
     February.style.boxShadow = "none";
     March.style.boxShadow = "none";
-    April.style.boxShadow = "2px 2px 2px 2px black";
+    April.style.boxShadow = "4px 4px 4px 4px black";
     May.style.boxShadow = "none";
     June.style.boxShadow = "none";
 }
@@ -153,7 +153,7 @@ function monthglowMay() {
     February.style.boxShadow = "none";
     March.style.boxShadow = "none";
     April.style.boxShadow = "none";
-    May.style.boxShadow = "2px 2px 2px 2px black";
+    May.style.boxShadow = "4px 4px 4px 4px black";
     June.style.boxShadow = "none";
 }
 
@@ -174,5 +174,5 @@ function monthglowJun() {
     March.style.boxShadow = "none";
     April.style.boxShadow = "none";
     May.style.boxShadow = "none";
-    June.style.boxShadow = "2px 2px 2px 2px black";
+    June.style.boxShadow = "4px 4px 4px 4px black";
 }
