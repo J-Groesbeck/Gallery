@@ -50,3 +50,7 @@ nav {
     background-color: rgb(28, 28, 28) !important;
     border-color: rgb(33, 33, 33) !important;
 }
+
+.img-height {
+    height: 200px;
+}
